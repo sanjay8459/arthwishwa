@@ -3,7 +3,7 @@ import requests
 
 app=Flask(__name__)
 
-@app.route('/index')
+@app.route('/')
 def homepage():
     return render_template('index1.html')
 
